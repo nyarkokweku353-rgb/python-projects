@@ -40,3 +40,27 @@ else:
     case _ :
       print("Grade D")#assignment3
 
+#Fizzbuzz challenge
+print("Welcome to Fizzbuzz!")
+number = int(input("Please enter a number: "))
+for num in range(1, number + 1):
+  if num % 3 == 0 and num % 5 == 0:
+    print("Fizz")
+  elif num % 5 == 0:
+    print("buzz")
+  elif num % 3 == 0:
+    print("Fizzbuzz")
+  else:
+    print("sorry")#assignment4a
+
+#New Fizzbuzz challenge
+print("Welcome to Fizzbuzz!")
+number = int(input("Please enter a number: "))
+if number % 3 == 0 and number % 5 == 0:
+    print("Fizzbuzz")
+elif number % 5 == 0:
+    print("buzz")
+elif number % 3 == 0:
+    print("Fizz")
+else:
+    print("sorry")#assignment4b
