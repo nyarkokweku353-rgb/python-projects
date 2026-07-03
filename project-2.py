@@ -64,3 +64,15 @@ elif number % 3 == 0:
     print("Fizz")
 else:
     print("sorry")#assignment4b
+
+print("Welcome to the Goat")
+
+#mearsurment project
+def calculate(w, h):   
+    s = w * h
+    print(s)
+
+w = float(input("Width: "))
+h = float(input("Height: "))
+
+calculate(w, h)#assignment6
